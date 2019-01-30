@@ -1,0 +1,31 @@
+@import 'variables.scss';
+@import 'toplayout.scss';
+@import 'mainlogo.scss';
+@import 'aboutcom.scss';
+@import 'someinfo.scss';
+@import '02.scss';
+@import 'undersomeinfo.scss';
+@import 'contact.scss';
+@import 'footer.scss';
+
+body{
+    margin: 0;
+    font-family: "ff-good-headline-web-pro-ext";
+    background-color: $bgColor;  
+    height: 100%;
+    background-image: url(img/bg_right.png); 
+    background-size: cover;    
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+main{
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.hugelogo{
+    position: relative; 
+    bottom: 400px;
+}

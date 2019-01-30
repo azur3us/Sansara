@@ -1,0 +1,120 @@
+.contact{
+height: 1200px; 
+}
+.formball{
+    position: relative;
+    top: 255px;
+    left: 600px;
+}
+.contact-box{
+width: 350px;
+height: 500px;
+background-color: #ffffff77;
+position: absolute;
+left: 20%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+}
+.contact-box h1{
+color: #333d3c;
+font-family: "Good Headline Pro - X Cond Black";
+font-size: 16px;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 9.6px;
+margin-bottom: 30px;
+
+}
+.contact-box p{
+margin:0;
+color: #868782;
+font-family: "Sofia Pro Medium";
+font-size: 12px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0.06px;
+text-align: center;
+}
+.contact-box input{
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+.contact-box input[type="text"], input[type="email"], input[type="tel"]
+{
+border: none;
+border-bottom: 1px solid #000;
+outline: none;
+background-color: transparent;
+    
+}
+.contact-box input[type="submit"]
+{
+margin: 20px 0 20px 0;
+width: 90px;
+height: 30px;
+background-color: #bab8ac;
+color: #ffffff;
+font-size: 18px;
+font-weight: bold;
+text-transform: uppercase;
+letter-spacing: 2.4px;
+outline: none;
+text-align: center;
+
+}
+.contact-box textarea{
+width: 100%;
+outline: none;
+border: none;
+border-bottom: 1px solid #000;
+resize: none;
+background-color: transparent;
+}
+.altcontact{
+    margin: 60px 0 0 0;
+    width: 200px;
+    position: absolute;
+    left: 50%;
+    
+}
+.altcontact h2{
+    margin: 0 0 80px 0;
+    width: 400px;
+    color: #333d3c;
+    font-family: "Good Headline Pro - X Cond Black";
+    font-size: 32x;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 4.8px;
+    text-align: right;
+}
+.altcontact h3{
+    margin: 0 0 20px 0;
+    width: 400px;
+    color: #333d3c;
+    font-family: "Good Headline Pro - X Cond Black";
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    
+    text-align: right;
+}
+.altcontact h4{
+margin: 0 0 60px 0;
+width: 400px;
+color: #868782;
+font-family: "Sofia Pro Medium";
+font-size: 16px;
+font-weight: 400;
+line-height: 18px;
+text-align: right;
+}
+.nelement{
+    position: relative;
+    left: 1163px;
+    top: 350px;
+}

@@ -1,0 +1,125 @@
+.undersomeinfo{
+height: 700px;
+margin: 100px 160px 0 160px;
+
+}
+.realizations{
+width: 680px;
+height: 420px;
+background-color: $skinColor;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+
+}
+.text5{
+width: 330px;
+margin: 0;
+color: #333d3c;
+font-family: "Good Headline Pro - X Cond Black";
+font-size: 48px;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 4.8px;
+margin-bottom: 20px;
+
+}
+.text6{
+width: 350px;
+text-align: center;
+color: #868782;
+font-family: "Good Headline Pro - X Cond Black";
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-transform: uppercase;
+letter-spacing: 1.6px;
+padding-bottom: 40px;
+}
+.see_projects{
+width: 300px;
+height: 60px;
+background-color: #bab8ac;
+opacity: 0.6;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.text7{
+margin: 0;
+color: #ffffff;
+font-family: "Good Headline Pro - X Cond Medium";
+font-size: 24px;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 2.4px;
+}
+.offer{
+width: 550px;
+height: 360px;
+box-shadow: -6px 11px 29px rgba(21, 53, 52, 0.14);
+background-color: #86857d;
+position: relative;
+top: -100px;
+left: 550px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.text8{
+margin: 0;
+color: #ffffff;
+font-family: "Good Headline Pro - X Cond Black";
+font-size: 48px;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 4.8px;
+margin-bottom: 20px;
+}
+.text9{
+    width: 480px;
+    margin: 0;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Good Headline Pro - X Cond Black";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    margin-bottom: 40px;
+}
+.see_offer
+{
+width: 300px;
+height: 60px;
+background-color: #cbf2f0;
+border: 2px solid #cbf2f0;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.text10{
+margin: 0;
+font-family: "Good Headline Pro - X Cond Medium";
+font-size: 24px;
+font-weight: 400;
+text-transform: uppercase;
+color: #000000;
+letter-spacing: 2.4px;
+}
+.two_layers1{
+    position: relative;
+    top: -730px;
+    left: -70px;
+   
+}
+.two_layers2{
+    position: relative;
+    top: -620px;
+    left: 800px;
+}
