@@ -20,8 +20,8 @@ justify-content: space-around;
 .contact-box h1{
 color: #333d3c;
 font-family: "Good Headline Pro - X Cond Black";
-font-size: 16px;
-font-weight: 400;
+font-size: 20px;
+font-weight: 700;
 text-transform: uppercase;
 letter-spacing: 9.6px;
 margin-bottom: 30px;
@@ -31,7 +31,7 @@ margin-bottom: 30px;
 margin:0;
 color: #868782;
 font-family: "Sofia Pro Medium";
-font-size: 12px;
+font-size: 14px;
 font-weight: 400;
 line-height: 18px;
 letter-spacing: 0.06px;
@@ -64,6 +64,7 @@ text-transform: uppercase;
 letter-spacing: 2.4px;
 outline: none;
 text-align: center;
+border: 0;
 
 }
 .contact-box textarea{
@@ -75,7 +76,7 @@ resize: none;
 background-color: transparent;
 }
 .altcontact{
-    margin: 60px 0 0 0;
+    margin: 100px 0 0 0;
     width: 200px;
     position: absolute;
     left: 50%;
@@ -87,9 +88,9 @@ background-color: transparent;
     color: #333d3c;
     font-family: "Good Headline Pro - X Cond Black";
     font-size: 32x;
-    font-weight: 400;
+    font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 4.8px;
+    //letter-spacing: 4.8px;
     text-align: right;
 }
 .altcontact h3{
@@ -98,13 +99,13 @@ background-color: transparent;
     color: #333d3c;
     font-family: "Good Headline Pro - X Cond Black";
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 700;
     text-transform: uppercase;
     
     text-align: right;
 }
 .altcontact h4{
-margin: 0 0 60px 0;
+margin: 0 0 40px 0;
 width: 400px;
 color: #868782;
 font-family: "Sofia Pro Medium";
