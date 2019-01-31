@@ -5,5 +5,8 @@
   "license": "MIT",
   "devDependencies": {
     "sass": "^1.16.1"
+  },
+  "dependencies": {
+    "style": "0.0.3"
   }
 }

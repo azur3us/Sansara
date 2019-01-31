@@ -7,21 +7,26 @@ footer{
     justify-content: space-between;
    
 }
+footer img{
+    cursor: pointer;
+}
 .foot_p{
-width: 600px;
-padding-top: 20px;
-margin: 0 150px 0 150px;
-color: #333d3c;
-font-family: "Good Headline Pro - X Cond Black";
-font-size: 12px;
-font-weight: 700;
-text-transform: uppercase;
-display: flex;
-flex-direction: row;
-justify-content: space-between;
+    width: 600px;
+    padding-top: 20px;
+    margin: 0 150px 0 150px;
+    color: #333d3c;
+    font-family: "Good Headline Pro - X Cond Black";
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
 }
 .foot_p p{
     margin:0;
+    cursor: pointer;
 }
 .icons_footer{
     padding-top: 10px;
@@ -31,5 +36,6 @@ justify-content: space-between;
     justify-content: space-between
 }
 .jwgimg{
-    padding: 5px 0 5px 0;
+    padding: 10px 0 10px 0;
+    
 }

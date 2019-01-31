@@ -1,66 +1,67 @@
 .someinfo{
-display: flex;
-flex-direction: row;
-margin-bottom: 80px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 80px;
 
 }
 
 .rectangle1{
-margin:0 250px 0 150px;
-width: 900px;
-height: 215px;
-background-color: $skinColor;
-opacity: 0.62;
-display: flex;
-align-items: center;
-padding: 0 40px 0 40px;
+    margin:0 250px 0 150px;
+    width: 900px;
+    height: 215px;
+    background-color: $skinColor;
+    opacity: 0.62;
+    display: flex;
+    align-items: center;
+    padding: 0 40px 0 40px;
 
 
 }
 .text4{
-width: 345px;
-height: 140px;
-color: #455251;
-font-family: "Sofia Pro Medium";
-font-size: 14px;
-font-weight: 400;
-line-height: 18px;
-letter-spacing: 0.07px;
-margin: 0;
-text-align: right;
+    width: 345px;
+    height: 140px;
+    color: #455251;
+    font-family: "Sofia Pro Medium";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.07px;
+    margin: 0;
+    text-align: right;
 
 }
 .border{
-width: 10px;
-height: 140px;
-border-right: 1px solid black;
-margin: 0 40px 0 20px;
+    width: 10px;
+    height: 140px;
+    border-right: 1px solid black;
+    margin: 0 40px 0 20px;
 
 }
 h2{
-width: 155px;
-color: #000;
-font-size: 32px;
-font-weight: 700;
-text-transform: uppercase;
-letter-spacing: 4px;
-margin: 0;
+    width: 155px;
+    color: #000;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 0;
 
 }
 h3{
-width:120px;
-color: #000;
-font-size: 24px;
-font-weight: 700;
-text-transform: uppercase;
-letter-spacing: 2.4px;
-margin: 0;
+    width:120px;
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+    margin: 0;
 
 }
 .snowball{
-width: 200px;
-height: 300px;
+    width: 200px;
+    height: 300px;
 }
 .skip_icon{
     margin-left: 170px;
+    cursor: pointer;
 }
