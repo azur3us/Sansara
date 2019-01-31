@@ -1,24 +1,24 @@
 .mainlogo{
+    height: 800px;
+    position: relative;
     margin-top: 70px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    
 
     
 }
 .logo{
-    height: 800px;
-    width: 750px;
+    position: absolute;
+    left: calc(50% - 385px);
+    
 }
 .left_img{
-    height: 230px;
-    width: 240px;
-    position: relative;
-    top: 370px;
+    height: 212px;
+    width: 226px;
+    position: absolute;
+    top: 50%;
 }
 .nav_icon{
-    width: 70px;
-    height: 45px;
-    position: relative;
-    top: 120px;
+    position: absolute;
+    right: 0;
+    top: 25%;
 }

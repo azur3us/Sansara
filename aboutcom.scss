@@ -1,29 +1,32 @@
 .about_company{
-    margin: 40px 0 150px 0;
+    height: 500px;
+    position: relative;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    padding: 0 10% 0 10%;
+    margin: 20px auto 200px auto;
     
 }
+.logos{
+    margin-right: 300px;
+}
 .text1{
-    width: 360px;
-    height: 114px;
+    width: 385px;
     color: #868782;
     font-family: "Sofia Pro Medium";
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 20px;
     letter-spacing: 0.07px;
-    padding-top:45px;
+    text-align:left;
+    padding-top: 70px;
+    
 
 }
 .text2{
-    width: 360px;
-    height: 54px;
+    width: 385px;
     color: #868782;
     font-family: "Sofia Pro Medium";
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 20px;
     letter-spacing: 0.07px;
@@ -32,7 +35,7 @@
 .text3{
     margin: 0 0 20px 0;
     color: #868782;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1.6px;
@@ -40,18 +43,19 @@
 }
 .span_txt3{
     color: #333d3c;
-    font-family: "Good Headline Pro - X Cond Black";
-    font-size: 14px;
+    font-family: ff-good-headline-web-pro-ext;
+    font-size: 24px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2.4px;
     white-space: nowrap;
 }
+
 .check{
     padding: 0 4px 0 4px;
     background-color: #bab8ac;
-    font-family: "Good Headline Pro - X Cond Black";
-    font-size: 14px;
+    font-family: ff-good-headline-web-pro-ext;
+    font-size: 24px;
     font-weight: 700;
     text-transform: uppercase;
     color:#fff;

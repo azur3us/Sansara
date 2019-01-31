@@ -1,4 +1,6 @@
 .someinfo{
+    height: 300px;
+    position: relative;
     display: flex;
     flex-direction: row;
     margin-bottom: 80px;
@@ -6,11 +8,11 @@
 }
 
 .rectangle1{
-    margin:0 250px 0 150px;
-    width: 900px;
+    position: absolute;
+    left: calc(50% - 450px);
+    width: 800px;
     height: 215px;
-    background-color: $skinColor;
-    opacity: 0.62;
+    background-color: rgba(#fff2dd,0.62);
     display: flex;
     align-items: center;
     padding: 0 40px 0 40px;
@@ -18,17 +20,16 @@
 
 }
 .text4{
-    width: 345px;
+    width: 340px;
     height: 140px;
-    color: #455251;
-    font-family: "Sofia Pro Medium";
-    font-size: 14px;
+    color:#455251;
+    font-family: "sofia-pro";
+    font-size: 12px;
     font-weight: 400;
     line-height: 18px;
     letter-spacing: 0.07px;
-    margin: 0;
     text-align: right;
-
+   
 }
 .border{
     width: 10px;
@@ -58,10 +59,17 @@ h3{
 
 }
 .snowball{
+    position: absolute;
     width: 200px;
     height: 300px;
 }
 .skip_icon{
-    margin-left: 170px;
+    position: absolute;
+    right: 40px;
     cursor: pointer;
+}
+.elec_to_rec1{
+    position: absolute;
+    right: 25%;
+    top: 85%;
 }

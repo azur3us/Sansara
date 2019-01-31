@@ -1,6 +1,17 @@
 .contact{
-    height: 1200px; 
+    height: 1100px; 
 
+}
+.contact:before{
+    content: '';
+    background-image: url(img/hugelogo.png); 
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 1060px;
+    position: absolute;
+    left: 370px;
+    top:5458px;
+    
 }
 .contact-box{
     width: 350px;
