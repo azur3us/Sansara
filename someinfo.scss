@@ -4,8 +4,10 @@ flex-direction: row;
 margin-bottom: 80px;
 
 }
+
 .rectangle1{
-width: 750px;
+margin:0 250px 0 150px;
+width: 900px;
 height: 215px;
 background-color: $skinColor;
 opacity: 0.62;
@@ -58,4 +60,8 @@ text-transform: uppercase;
 letter-spacing: 2.4px;
 margin: 0;
 
+}
+.snowball{
+width: 200px;
+height: 300px;
 }
