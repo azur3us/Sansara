@@ -1,10 +1,6 @@
 .contact{
 height: 1200px; 
-}
-.formball{
-    position: relative;
-    top: 255px;
-    left: 600px;
+
 }
 .contact-box{
 width: 350px;
@@ -19,8 +15,7 @@ justify-content: space-around;
 }
 .contact-box h1{
 color: #333d3c;
-font-family: "Good Headline Pro - X Cond Black";
-font-size: 20px;
+font-size: 24px;
 font-weight: 700;
 text-transform: uppercase;
 letter-spacing: 9.6px;
@@ -32,7 +27,7 @@ margin:0;
 color: #868782;
 font-family: "Sofia Pro Medium";
 font-size: 14px;
-font-weight: 400;
+font-weight: 600;
 line-height: 18px;
 letter-spacing: 0.06px;
 text-align: center;
@@ -53,7 +48,7 @@ background-color: transparent;
 }
 .contact-box input[type="submit"]
 {
-margin: 20px 0 20px 0;
+margin: 20px 0 20px 70px;
 width: 90px;
 height: 30px;
 background-color: #bab8ac;
@@ -61,7 +56,6 @@ color: #ffffff;
 font-size: 18px;
 font-weight: bold;
 text-transform: uppercase;
-letter-spacing: 2.4px;
 outline: none;
 text-align: center;
 border: 0;
@@ -86,19 +80,17 @@ background-color: transparent;
     margin: 0 0 80px 0;
     width: 400px;
     color: #333d3c;
-    font-family: "Good Headline Pro - X Cond Black";
-    font-size: 32x;
+    font-size: 48px;
     font-weight: 700;
     text-transform: uppercase;
-    //letter-spacing: 4.8px;
+    letter-spacing: 4.8px;
     text-align: right;
 }
 .altcontact h3{
     margin: 0 0 20px 0;
     width: 400px;
     color: #333d3c;
-    font-family: "Good Headline Pro - X Cond Black";
-    font-size: 16px;
+    font-size: 22px;
     font-weight: 700;
     text-transform: uppercase;
     
@@ -109,7 +101,7 @@ margin: 0 0 40px 0;
 width: 400px;
 color: #868782;
 font-family: "Sofia Pro Medium";
-font-size: 16px;
+font-size: 18px;
 font-weight: 400;
 line-height: 18px;
 text-align: right;
@@ -118,4 +110,9 @@ text-align: right;
     position: relative;
     left: 1163px;
     top: 350px;
+}
+.formball{
+    position: relative;
+    top: 255px;
+    left: 600px;
 }
