@@ -1,10 +1,11 @@
 .undersomeinfo{
     position: relative;
-    height: 700px;
+    height: 715px;
     margin-top:100px;
     margin-right: auto;
     margin-left: auto;
-    
+    width: 100%;
+    overflow: hidden;
     
 }
 .realizations{
@@ -12,7 +13,7 @@
     height: 420px;
     background-color: #fff2dd;
     position: absolute;
-    left: -550px;
+    left: calc(50% - 550px);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -69,7 +70,7 @@
     background-color: #86857d;
     position: absolute;
     top: 320px;
-    left: 40px;
+    left: calc(50% - 40px);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -87,6 +88,7 @@
 }
 .text9{
     width: 280px;
+    max-width: 90%;
     margin: 0;
     text-align: center;
     color: #ffffff;
@@ -129,5 +131,52 @@
 .two_layers2{
     position: absolute;
     top: 150px;
-    right: -700px;
+    right: calc(50% - 700px);
+}
+@media(max-width:1070px){
+    .undersomeinfo{
+        height: 780px;
+    }
+    .realizations{
+        left: calc(50% - 415px);
+    }
+    .offer{
+        left: calc(50% - 145px);
+        top: 366px;
+    }
+}
+@media(max-width:880px){
+    .realizations{
+        left: 20px;
+        right: 60px;
+        width: auto;
+    }
+    .offer{
+        left: 100px;
+        right: 20px;
+        width: auto;
+
+    }
+    .two_layers1{
+        top: 182px;
+        left: -100px;
+    }
+}
+@media(max-width:600px){
+
+    .two_layers1{
+        display: none;
+    }
+}
+
+@media(max-width:460px){
+    .realizations{
+        left: 20px;
+        right: 20px;
+    }
+    .offer{
+        left: 20px;
+        right: 20px;
+
+    }
 }
