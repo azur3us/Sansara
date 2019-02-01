@@ -22,11 +22,14 @@
     height: 500px;
     background-color: rgba(#ffffff,0.5);
     position: absolute;
-    left: 200px;
+    left: 180px;
+    top: 230px;
+   // left: calc(50% - 175px);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    
 }
 .contact-box form{
     display: flex;
@@ -96,7 +99,9 @@
     
     width: 200px;
     position: absolute;
-    right: 300px;
+    top:330px;
+    right: 600px;
+    //left: calc(50% - 100px);
     
 }
 .altcontact h2{
@@ -133,9 +138,13 @@
 }
 .nelement{
     position: absolute;
+    right: 0;
+    top:330px;
     
 }
 .formball{
     position: absolute;
+    top: 320px;
+    left: 480px;
     
 }
