@@ -1,12 +1,18 @@
 .undersomeinfo{
+    position: relative;
     height: 700px;
-    margin: 100px 160px 0 160px;
-
+    margin-top:100px;
+    margin-right: auto;
+    margin-left: auto;
+    
+    
 }
 .realizations{
     width: 680px;
     height: 420px;
     background-color: #fff2dd;
+    position: absolute;
+    left: -550px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,32 +21,31 @@
 
 }
 .text5{
-    width: 330px;
     margin: 0;
     color: #333d3c;
-    font-family: "Good Headline Pro - X Cond Black";
-    font-size: 48px;
-    font-weight: 400;
+    font-family: "ff-good-headline-web-pro-ext";
+    font-size: 58px;
+    font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 4.8px;
     margin-bottom: 20px;
 
 }
 .text6{
-    width: 350px;
+    width: 190px;
     text-align: center;
     color: #868782;
-    font-family: "Good Headline Pro - X Cond Black";
+    font-family: "ff-good-headline-web-pro-ext";
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 24px;
     text-transform: uppercase;
     letter-spacing: 1.6px;
     padding-bottom: 40px;
 }
 .see_projects{
-    width: 300px;
-    height: 60px;
+    width: 230px;
+    height: 40px;
     background-color: #bab8ac;
     opacity: 0.6;
     display: flex;
@@ -51,9 +56,9 @@
 .text7{
     margin: 0;
     color: #ffffff;
-    font-family: "Good Headline Pro - X Cond Medium";
+    font-family: "ff-good-headline-web-pro-ext";
     font-size: 24px;
-    font-weight: 400;
+    font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2.4px;
 }
@@ -62,9 +67,9 @@
     height: 360px;
     box-shadow: -6px 11px 29px rgba(21, 53, 52, 0.14);
     background-color: #86857d;
-    position: relative;
-    top: -100px;
-    left: 550px;
+    position: absolute;
+    top: 320px;
+    left: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -73,21 +78,21 @@
 .text8{
     margin: 0;
     color: #ffffff;
-    font-family: "Good Headline Pro - X Cond Black";
-    font-size: 48px;
-    font-weight: 400;
+    font-family: "ff-good-headline-web-pro-ext";
+    font-size: 58px;
+    font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 4.8px;
     margin-bottom: 20px;
 }
 .text9{
-    width: 480px;
+    width: 280px;
     margin: 0;
     text-align: center;
     color: #ffffff;
-    font-family: "Good Headline Pro - X Cond Black";
+    font-family: "ff-good-headline-web-pro-ext";
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 24px;
     text-transform: uppercase;
     letter-spacing: 1.6px;
@@ -95,8 +100,8 @@
 }
 .see_offer
 {
-    width: 300px;
-    height: 60px;
+    width: 230px;
+    height: 40px;
     background-color: #cbf2f0;
     border: 2px solid #cbf2f0;
     display: flex;
@@ -107,21 +112,22 @@
 }
 .text10{
     margin: 0;
-    font-family: "Good Headline Pro - X Cond Medium";
+    font-family: "ff-good-headline-web-pro-ext";
     font-size: 24px;
-    font-weight: 400;
+    font-weight: 700;
     text-transform: uppercase;
     color: #000000;
     letter-spacing: 2.4px;
 }
 .two_layers1{
-    position: relative;
-    top: -730px;
-    left: -70px;
+    position: absolute;
+    top: 290px;
+    left: -80px;
+    
    
 }
 .two_layers2{
-    position: relative;
-    top: -620px;
-    left: 800px;
+    position: absolute;
+    top: 150px;
+    right: -700px;
 }
