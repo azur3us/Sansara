@@ -85,6 +85,12 @@
     text-align: center;
     border: 0;
     cursor: pointer;
+    &:hover{
+        transform: scale(1.1);
+    }
+    &:active{
+        background: #a9a79b;
+    }
 
 }
 .contact-box textarea{

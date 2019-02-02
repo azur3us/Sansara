@@ -67,6 +67,11 @@ h3{
     position: absolute;
     right: 40px;
     cursor: pointer;
+    transition: 0.8s;
+    &:hover{
+        transform: scale(1.2) rotate(360deg);
+    }
+    
 }
 .elec_to_rec1{
     position: absolute;

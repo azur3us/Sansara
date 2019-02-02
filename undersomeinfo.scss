@@ -53,6 +53,9 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    &:hover{
+        background: #a9a79b;
+    }
 }
 .text7{
     margin: 0;
@@ -110,6 +113,10 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    &:hover{
+        background: #bae1e0;
+        border: 2px solid #bae1e0;
+    }
 
 }
 .text10{

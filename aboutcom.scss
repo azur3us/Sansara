@@ -12,7 +12,7 @@
 .text1{
     width: 385px;
     color: #868782;
-    font-family: "Sofia Pro Medium";
+    font-family: "sofia-pro";
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
@@ -25,7 +25,7 @@
 .text2{
     width: 385px;
     color: #868782;
-    font-family: "Sofia Pro Medium";
+    font-family: "sofia-pro";
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
@@ -53,7 +53,7 @@
 }
 .span_txt3{
     color: #333d3c;
-    font-family: ff-good-headline-web-pro-ext;
+    font-family: "ff-good-headline-web-pro-ext";
     font-size: 24px;
     font-weight: 700;
     text-transform: uppercase;
@@ -65,13 +65,20 @@
 .check{
     padding: 0 4px 0 4px;
     background-color: #bab8ac;
-    font-family: ff-good-headline-web-pro-ext;
+    font-family: "ff-good-headline-web-pro-ext";
     font-size: 24px;
     font-weight: 700;
     text-transform: uppercase;
     color:#fff;
     margin-left: 10px;
     cursor: pointer;
+    transition: 0.5s;
+    &:hover{
+        transform: scale(1.1);
+    }
+    &:active{
+        background-color: #a9a79b
+    }
 }
 @media(max-width:1120px){
     .logos{
