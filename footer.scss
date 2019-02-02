@@ -1,10 +1,12 @@
 footer{
     padding: 40px;
     width: auto;
+    height: 30px;
     background-color: #fff;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
    
 }
 footer img{
@@ -12,12 +14,15 @@ footer img{
 }
 .foot_p{
     width: 600px;
-    padding-top: 20px;
+    padding-top: 10px;
+    position: absolute;
+    left: calc(50% - 390px);
     margin: 0 150px 0 150px;
     color: #333d3c;
-    font-family: "Good Headline Pro - X Cond Black";
-    font-size: 12px;
+    font-family: "ff-good-headline-web-pro-ext";
+    font-size: 16px;
     font-weight: 700;
+    letter-spacing: 1.6px;
     text-transform: uppercase;
     display: flex;
     flex-direction: row;
@@ -27,8 +32,16 @@ footer img{
 .foot_p p{
     margin:0;
     cursor: pointer;
+    
+}
+.rise_black{
+    position: absolute;
+    left: 0;
+    margin-left: 40px;
 }
 .icons_footer{
+    position: absolute;
+    left: calc(5% + 140px);
     padding-top: 10px;
     width: 60px;
     height: 30px;
@@ -36,6 +49,15 @@ footer img{
     justify-content: space-between
 }
 .jwgimg{
+    position: absolute;
+    right: 0;
+    margin-right: 40px;
     padding: 10px 0 10px 0;
     
+}
+@media(max-width:1160px)
+{
+    .foot_p{
+        width: 490px;
+    }
 }

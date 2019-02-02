@@ -133,6 +133,11 @@
     top: 150px;
     right: calc(50% - 700px);
 }
+@media(max-width:1390px){
+    .two_layers2{
+        right: calc(50% - 550px);   
+    }
+}
 @media(max-width:1070px){
     .undersomeinfo{
         height: 780px;

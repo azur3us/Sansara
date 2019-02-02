@@ -14,7 +14,8 @@
     width: 1060px;
     position: absolute;
     overflow: hidden;
-    top:650px;
+    bottom:0;
+    left: calc(50% - 365px);
     
 }
 .contact-box{
@@ -22,7 +23,7 @@
     height: 500px;
     background-color: rgba(#ffffff,0.5);
     position: absolute;
-    left: calc(50% - 560px);
+    left: calc(50% - 435px);
     top: 230px;
     display: flex;
     flex-direction: column;
@@ -71,7 +72,7 @@
 .contact-box input[type="submit"]
 {
     margin: 20px 0 20px 0;
-    width: 90px;
+    width: 80px;
     height: 30px;
     background-color: #bab8ac;
     color: #ffffff;
@@ -99,7 +100,7 @@
     width: 200px;
     position: absolute;
     top:330px;
-    left: calc(50%);
+    left: calc(50% + 40px);
     
 }
 .altcontact h2{
@@ -143,6 +144,41 @@
 .formball{
     position: absolute;
     top: 375px;
-    left: calc(50% - 265px);
+    left: calc(50% - 145px);
     
+}
+.foot_ele{
+    height: 90px;
+    width: 100px;
+    position:absolute;
+    left: calc(50% + 315px);
+    bottom: -25px;
+}
+.silver_ball{
+    position: absolute;
+    bottom: 230px;
+    left: calc(50% - 635px);
+}
+@media(max-width:1390px){
+    .contact:before
+    {
+        left: calc(50% - 455px);
+    }
+    .foot_ele{
+        left: calc(50% + 220px);
+    }
+    .silver_ball{
+        left: calc(50% - 490px);
+    }
+}
+@media(max-width:1245px){
+    .contact:before{
+        left: calc(50% - 550px);
+    }
+    .foot_ele{
+        left: calc(50% + 140px);
+    }
+    .altcontact{
+        left: calc(50% - 80px);
+    }
 }

@@ -169,9 +169,13 @@
 .trophy{
     margin-top: 150px;
 }
-
-@media(max-width: 1500px){
+@media(max-width:1500px){
     .right_elements{
         display: none;
+    }
+}
+@media(max-width:1315px){
+    .conteiner5{
+        left:15px;
     }
 }

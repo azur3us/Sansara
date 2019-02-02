@@ -73,3 +73,13 @@ h3{
     right: 25%;
     top: 85%;
 }
+@media(max-width:1300px){
+    .rectangle1{
+        left: calc(50% - 355px);
+        width: 710px;
+    }
+    .snowball{
+        width: 150px;
+        height: 250px;
+    }
+}
