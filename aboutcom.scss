@@ -33,6 +33,7 @@
     padding: 45px 0 30px 0;
 }
 .text3{
+    width: 450px;
     margin: 0 0 20px 0;
     color: #868782;
     font-size: 16px;
@@ -40,6 +41,7 @@
     text-transform: uppercase;
     letter-spacing: 1.6px;
     display: flex;
+    align-items: baseline;
     > span{
         display: block;
     }
@@ -57,7 +59,7 @@
     text-transform: uppercase;
     letter-spacing: 2.4px;
     white-space: nowrap;
-    flex-grow: 1;
+   
 }
 
 .check{

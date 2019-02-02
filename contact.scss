@@ -22,9 +22,8 @@
     height: 500px;
     background-color: rgba(#ffffff,0.5);
     position: absolute;
-    left: 180px;
+    left: calc(50% - 560px);
     top: 230px;
-   // left: calc(50% - 175px);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -100,8 +99,7 @@
     width: 200px;
     position: absolute;
     top:330px;
-    right: 600px;
-    //left: calc(50% - 100px);
+    left: calc(50%);
     
 }
 .altcontact h2{
@@ -144,7 +142,7 @@
 }
 .formball{
     position: absolute;
-    top: 320px;
-    left: 480px;
+    top: 375px;
+    left: calc(50% - 265px);
     
 }
