@@ -138,6 +138,11 @@
         right: calc(50% - 550px);   
     }
 }
+@media(max-width:1270px){
+    .two_layers1{
+        left: -45px;
+    }
+}
 @media(max-width:1070px){
     .undersomeinfo{
         height: 780px;

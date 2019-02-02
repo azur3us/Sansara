@@ -74,5 +74,13 @@
     cursor: pointer;
 }
 @media(max-width:1120px){
-    
+    .logos{
+        margin-right:75px; 
+    }
+}
+@media(max-width:800px){
+    .about_company{
+        height: 750px;
+        flex-direction: column;
+    }
 }

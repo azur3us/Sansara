@@ -182,3 +182,12 @@
         left: calc(50% - 80px);
     }
 }
+@media(max-width:1020px){
+    .contact:before{
+        width: 860px;
+        left: calc(50% - 500px);
+    }
+    .altcontact{
+        left: calc(50% - 145px);
+    }
+}

@@ -61,3 +61,11 @@ footer img{
         width: 490px;
     }
 }
+@media(max-width:1030px)
+{
+    .foot_p{
+        width: 490px;
+        left: calc(50% - 325px);
+        width: 430px;
+    }
+}
