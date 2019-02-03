@@ -71,6 +71,9 @@ h3{
     &:hover{
         transform: scale(1.2) rotate(360deg);
     }
+    &:active{
+        transform: scale(0.9);
+    }
     
 }
 .elec_to_rec1{
