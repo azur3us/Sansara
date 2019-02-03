@@ -197,3 +197,22 @@
         left: calc(50% - 145px);
     }
 }
+@media(max-width:880px){
+    .nelement{
+        width: 100px;
+    }
+    .contact-box{
+        left: calc(50% - 355px);
+    }
+    .formball{
+        left: calc(50% - 65px);
+    }
+}
+@media(max-width:750px){
+    .contact:before{
+        left: calc(50% - 600px);
+    }
+    .foot_ele{
+        left: calc(50% + 45px);
+    }
+}

@@ -1,2 +1,2 @@
 import './style.scss';
-import './stickynav';
+import './slidenav.js';

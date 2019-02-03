@@ -100,3 +100,29 @@ h3{
         height: 140px;
     }
 }
+@media(max-width:880px){
+    .rectangle1{
+        width: 610px;
+    }
+}
+@media(max-width:680px){
+    .rectangle1{
+        height: 250px;
+        width: 400px;
+        flex-direction: column;
+        left: calc(50% - 230px);
+    }
+    .border{
+        width: 360px;
+        border-right: none;
+        border-bottom: 1px solid black;
+        position: absolute;
+        top: calc(50% - 100px);
+        left: 47px;
+    }
+    .skip_icon{
+        top: 75%;
+        right: 50px;
+    }
+    
+}

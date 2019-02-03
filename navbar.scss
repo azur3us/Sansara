@@ -1,0 +1,45 @@
+.navbar_icon{
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    top:30%;
+    height: 45px;
+    width: 60px;
+    font-size: 30px;
+    text-align: center;
+    background-color: #333d3c;
+    color: #eee0c9;
+    cursor: pointer;
+    
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    right: 0;
+    background-color: #111;
+    overflow: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  } 
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  @media(max-width:1200px)
+  {
+    .navbar_icon{
+      position: absolute;
+      top:180%;
+    }
+  }
+  @media(max-width:980px){
+    .navbar_icon{
+      height: 30px;
+      width: 42px;
+      font-size: 20px;
+    }
+  }

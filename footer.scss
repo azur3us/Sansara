@@ -32,7 +32,9 @@ footer img{
 .foot_p p{
     margin:0;
     cursor: pointer;
-    
+    &:hover{
+        color: $bgColor; 
+    }
 }
 .rise_black{
     position: absolute;
@@ -83,5 +85,15 @@ footer img{
         width: 490px;
         left: calc(50% - 325px);
         width: 430px;
+    }
+}
+@media(max-width:940px){
+    .foot_p{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 200px;
+        position: absolute;
+        left: calc(50% - 220px);
     }
 }

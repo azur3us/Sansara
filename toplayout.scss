@@ -42,12 +42,10 @@
     right: 5%;
     top: 60px;
 }
-.nav_icon{
-    overflow: hidden;
-    position: fixed;
-    right: 0;
-    top:30%;
-    
+@media(max-width:980px){
+    .elements{
+        width: 150px;
+    }
 }
 
 
