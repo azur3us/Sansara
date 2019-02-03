@@ -1,6 +1,6 @@
 @import 'variables.scss';
 @import 'toplayout.scss';
-@import 'mainlogo.scss';
+@import 'main_logo.scss';
 @import 'aboutcom.scss';
 @import 'someinfo.scss';
 @import 'maincontent.scss';
@@ -14,7 +14,7 @@ body{
     font-family: "ff-good-headline-web-pro-ext";
     background-color: $bgColor;  
     height: 100%;
-    background-image: url(img/bg_right.png); 
+    background-image: url(../img/bg_right.png); 
     background-size: cover;    
     background-position: center;
     background-repeat: no-repeat;

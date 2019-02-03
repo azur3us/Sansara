@@ -7,6 +7,7 @@
     "sass": "^1.16.1"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "stickynav": "0.0.0",
     "style": "0.0.3"
   }
