@@ -10,6 +10,7 @@
     content: '';
     background-image: url(../img/hugelogo.png); 
     background-repeat: no-repeat;
+   // background-size: 900px 800px;
     height: 450px;
     width: 1060px;
     position: absolute;
@@ -84,6 +85,7 @@
     outline: none;
     text-align: center;
     border: 0;
+    
     cursor: pointer;
     &:hover{
         transform: scale(1.1);
@@ -119,6 +121,9 @@
     text-transform: uppercase;
     letter-spacing: 4.8px;
     text-align: right;
+    @media(max-width: 690px){
+        font-size: 30px;
+    }
 }
 .altcontact h3{
     margin: 0 0 20px 0;
@@ -130,6 +135,9 @@
     text-transform: uppercase;
     letter-spacing: 2.4px;
     text-align: right;
+    @media(max-width: 690px){
+        font-size: 20px;
+    }
 }
 .altcontact h4{
     margin: 0 0 40px 0;
@@ -140,11 +148,17 @@
     font-weight: bold;
     line-height: 18px;
     text-align: right;
+    @media(max-width: 690px){
+        font-size: 14px;
+    }
 }
 .nelement{
     position: absolute;
     right: 0;
     top:330px;
+    @media(max-width: 690px){
+        display: none;
+    }
     
 }
 .formball{
@@ -214,5 +228,34 @@
     }
     .foot_ele{
         left: calc(50% + 45px);
+    }
+}
+@media(max-width:690px){
+    .altcontact{
+        top:0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-box{
+        top: 350px;
+        left: calc(50% - 175px);
+        
+    }
+    .formball{
+        display: none;
+    }
+    .contact{
+        height: 1300px;
+        
+    }
+    .altcontact h2{
+        text-align: center;
+        margin: 0 0 40px 0;
+    }
+    .altcontact h3{
+        text-align: center;
+    }
+    .altcontact h4{
+        text-align: center;
     }
 }

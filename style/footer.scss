@@ -27,6 +27,9 @@ footer img{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    @media(max-width:690px){
+        flex-direction: column;
+    }
 
 }
 .foot_p p{
@@ -40,6 +43,9 @@ footer img{
     position: absolute;
     left: 0;
     margin-left: 40px;
+    @media(max-width:690px){
+        height: 30px;
+    }
 }
 .icon_insta_black{
     transition: 1s;
@@ -64,13 +70,20 @@ footer img{
     width: 60px;
     height: 30px;
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    @media(max-width:690px){
+        left: calc(5% + 90px);   
+    }
+    
 }
 .jwgimg{
     position: absolute;
     right: 0;
     margin-right: 40px;
     padding: 10px 0 10px 0;
+    @media(max-width:690px){
+        height: 30px;
+    }
     
 }
 @media(max-width:1160px)
