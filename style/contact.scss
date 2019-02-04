@@ -6,7 +6,7 @@
     
 
 }
-.contact:before{
+/*.contact:before{
     content: '';
     background-image: url(../img/hugelogo.png); 
     background-repeat: no-repeat;
@@ -19,6 +19,7 @@
     left: calc(50% - 365px);
     
 }
+*/
 .contact-box{
     width: 350px;
     height: 500px;
@@ -235,6 +236,7 @@
         top:0px;
         display: flex;
         flex-direction: column;
+        left: calc(50% - 175px);
     }
     .contact-box{
         top: 350px;

@@ -71,9 +71,12 @@ footer img{
     height: 30px;
     display: flex;
     justify-content: space-between;
-    @media(max-width:690px){
-        left: calc(5% + 90px);   
+    @media(max-width:630px){
+        margin-top: 30px;
+        left: 35px;
     }
+
+   
     
 }
 .jwgimg{

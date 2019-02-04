@@ -3,7 +3,9 @@
     display: flex;
     flex-direction: column;
     height: 2000px;
-   
+    @media(max-width: 560px){
+        height: 3000px;
+    }
     
      
 }
@@ -40,6 +42,9 @@
     @media(max-width:690px){
         font-size: 20px;
     }
+    @media(max-width:540px){
+        letter-spacing: 10px;
+    }
     
 }
 .decision{
@@ -73,6 +78,11 @@
     @media(max-width:860px){
         margin:0;
     }
+    @media(max-width: 560px)
+    {
+        flex-direction: column;
+        align-self: center; 
+    }
     
 }
 
@@ -91,6 +101,12 @@
     }
     @media(max-width:860px){
         margin:0;
+    }
+    @media(max-width: 560px)
+    {
+        top: 650px;
+        flex-direction: column;
+        align-self: center; 
     }
     
 }
@@ -114,6 +130,12 @@
         top:850px;
         margin:0;
     }
+    @media(max-width: 560px)
+    {
+        top: 1300px;
+        flex-direction: column;
+        align-self: center; 
+    }
 }
 .conteiner4{
     align-self: flex-end;
@@ -135,6 +157,12 @@
         top: 1050px;
         margin:0;
     }
+    @media(max-width: 560px)
+    {
+        top: 1700px;
+        flex-direction: column;
+        align-self: center; 
+    }
 }
 .conteiner5{
     align-self: flex-start;
@@ -151,6 +179,12 @@
     }
     @media(max-width:860px){
         margin:0;
+    }
+    @media(max-width: 560px)
+    {
+        top: 2150px;
+        flex-direction: column;
+        align-self: center; 
     }
 }
 .conteiner6{
@@ -172,12 +206,21 @@
     @media(max-width:690px){
         top: 1550px;
     }
+    @media(max-width: 560px)
+    {
+        top: 2500px;
+        flex-direction: column;
+        align-self: center; 
+    }
 }
 
 .columns{
     display: flex;
     flex-direction: column;
     margin: 40px;
+    @media(max-width: 590px){
+        margin: 0;
+    }
 }
 .main_h1{
     font-family: "ff-good-headline-web-pro-ext";
@@ -247,6 +290,9 @@
 .columns:nth-child(1)
 {   
     margin: 100px 0 0 70px;
+    @media(max-width: 590px){
+        margin: 0;
+    }
 }
 .lorgnette{
     padding-top: 80px;
@@ -267,6 +313,11 @@
         margin-top: 105px;
         height: 200px;
     }
+    @media(max-width:560px){
+        order:-1;
+        height: 250px;
+    }
+
 }
 .pillow{
     @media(max-width:690px){
@@ -277,6 +328,9 @@
 .rollers{
     @media(max-width:690px){
         height: 200px;
+    }
+    @media(max-width:560px){
+        height: 250px;
     }
 }
 .light_bulb{
