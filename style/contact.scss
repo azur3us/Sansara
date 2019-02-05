@@ -6,11 +6,11 @@
     
 
 }
-/*.contact:before{
+.contact:before{
     content: '';
     background-image: url(../img/hugelogo.png); 
     background-repeat: no-repeat;
-   // background-size: 900px 800px;
+    background-size: 1160px 680px;
     height: 450px;
     width: 1060px;
     position: absolute;
@@ -19,7 +19,7 @@
     left: calc(50% - 365px);
     
 }
-*/
+
 .contact-box{
     width: 350px;
     height: 500px;
@@ -203,14 +203,19 @@
 }
 @media(max-width:1020px){
     .contact:before{
-        width: 860px;
+        background-size: 1040px 690px;
+        width: 950px;
         left: calc(50% - 500px);
     }
     .altcontact{
         left: calc(50% - 145px);
     }
+    .foot_ele{
+        height: 50px;
+        width: 50px;
+    }
 }
-@media(max-width:880px){
+@media(max-width:900px){
     .nelement{
         width: 100px;
     }
@@ -220,10 +225,21 @@
     .formball{
         left: calc(50% - 65px);
     }
-}
-@media(max-width:750px){
     .contact:before{
-        left: calc(50% - 600px);
+        background-size: 800px 500px;
+        width: 730px; 
+        height: 330px;
+        left: calc(50% - 350px);
+
+    }
+}
+@media(max-width:760px){
+    .contact:before{
+        background-size: 685px 440px;
+        width: 625px;
+        height: 294px;
+        left: calc(50% - 290px);
+        
     }
     .foot_ele{
         left: calc(50% + 45px);
@@ -245,7 +261,7 @@
         display: none;
     }
     .contact{
-        height: 1300px;
+        height: 1130px;
         
     }
     .altcontact h2{
@@ -260,6 +276,12 @@
     }
     .nelement{
         display: none;
+    }
+    .contact:before{
+        background-size: 540px 330px;
+        width: 495px;
+        height: 220px;
+        left: calc(50% - 275px);
     }
 }
 @media(max-width:490px){
@@ -276,5 +298,23 @@
     }
     .altcontact h4{
         width: 220px;
+    }
+    .contact:before{
+        background-size: 400px 290px;
+        width: 370px;
+        height: 193px;
+        left: calc(50% - 190px);
+    }
+}
+@media(max-width:370px){
+    .contact-box{
+        width: 290px;
+        left: calc(50% - 145px);
+    }
+    .contact:before{
+        background-size: 360px 270px;
+        width: 330px;
+        height: 180px;
+        left: calc(50% - 170px);
     }
 }
