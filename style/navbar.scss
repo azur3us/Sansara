@@ -32,8 +32,10 @@
   @media(max-width:1200px)
   {
     .navbar_icon{
-      position: absolute;
-      top:180%;
+    
+     top:0;
+     background-color: transparent;
+     color: black;
     }
   }
   @media(max-width:980px){
