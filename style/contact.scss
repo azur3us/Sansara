@@ -111,6 +111,7 @@
     top:330px;
     left: calc(50% + 40px);
     
+    
 }
 .altcontact h2{
     margin: 0 0 80px 0;
@@ -157,9 +158,6 @@
     position: absolute;
     right: 0;
     top:330px;
-    @media(max-width: 690px){
-        display: none;
-    }
     
 }
 .formball{
@@ -259,5 +257,24 @@
     }
     .altcontact h4{
         text-align: center;
+    }
+    .nelement{
+        display: none;
+    }
+}
+@media(max-width:490px){
+    .altcontact{
+        width: 220px;
+        align-items: center;
+        left: calc(50% - 90px);
+    }
+    .altcontact h2{
+        width: 110px;
+    }
+    .altcontact h3{
+        width: 195px;
+    }
+    .altcontact h4{
+        width: 220px;
     }
 }

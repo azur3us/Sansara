@@ -113,3 +113,14 @@ footer img{
         left: calc(50% - 220px);
     }
 }
+@media(max-width:370px){
+    .rise_black{
+        margin-left: 10px;
+    }
+    .icons_footer{
+        left: 10px;   
+    }
+    .jwgimg{
+        margin-right: 3px;
+    }
+}

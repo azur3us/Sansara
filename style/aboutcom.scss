@@ -91,3 +91,35 @@
         flex-direction: column;
     }
 }
+@media(max-width:500px){
+    .about_company{
+        margin: 0;
+    }
+    .logos{
+        margin: 0;
+        width: 300px;
+        align-self: center;
+    }
+    .text1{
+        width: unset;
+        text-align: center;
+    }
+    .text2{
+        width: unset;
+        text-align: center;
+    }
+    .text3{
+        margin: 0;
+        width: unset;
+        flex-direction: column;
+        align-items: center;
+        >.border_bottom{
+            display: none;
+        }
+        >.check{ 
+         margin-bottom: 50px;
+        }
+    }
+    }
+    
+

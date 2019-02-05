@@ -1,7 +1,7 @@
 .top_layout{
     position: relative;
     width: 100%;
-    height: 240px;
+    height: 240px;   
     @media(max-width:690px){
         height: 140px;
     }
@@ -56,6 +56,14 @@
     }
     .rise_small{
         width: 100px;
+    }
+}
+@media(max-width:500px){
+    .elements{
+        display: none;
+    }
+    .rise_small{
+        width: 70px;
     }
 }
 
