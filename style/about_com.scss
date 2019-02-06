@@ -1,5 +1,4 @@
 .about_company{
-    height: 500px;
     position: relative;
     display: flex;
     flex-direction: row;
@@ -87,7 +86,6 @@
 }
 @media(max-width:880px){
     .about_company{
-        height: 750px;
         flex-direction: column;
     }
 }
@@ -103,12 +101,12 @@
     .text1{
         width: unset;
         text-align: center;
-        padding: 70px 5px 0 5px;
+        padding: 70px 15px 0 15px;
     }
     .text2{
         width: unset;
         text-align: center;
-        padding: 45px 5px 30px 5px;
+        padding: 45px 15px 30px 15px;
     }
     .text3{
         margin: 0;

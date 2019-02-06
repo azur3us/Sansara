@@ -1,13 +1,13 @@
 @import 'variables.scss';
-@import 'toplayout.scss';
+@import 'top_layout.scss';
 @import 'main_logo.scss';
-@import 'aboutcom.scss';
-@import 'someinfo.scss';
-@import 'maincontent.scss';
-@import 'undersomeinfo.scss';
+@import 'about_com.scss';
+@import 'some_info.scss';
+@import 'main_content.scss';
+@import 'under_some_info.scss';
 @import 'contact.scss';
 @import 'footer.scss';
-@import 'navbar.scss';
+@import 'nav_bar.scss';
 
 body{
     margin: 0;
@@ -25,6 +25,7 @@ main{
     height: 100%;
     display: flex;
     flex-direction: column;
+    
 }
 
 

@@ -286,18 +286,19 @@
 }
 @media(max-width:490px){
     .altcontact{
-        width: 220px;
+        position: unset;
+        width: unset;
         align-items: center;
-        left: calc(50% - 90px);
+        
     }
     .altcontact h2{
-        width: 110px;
+        width: unset;
     }
     .altcontact h3{
-        width: 195px;
+        width: unset;
     }
     .altcontact h4{
-        width: 220px;
+        width: unset;
     }
     .contact:before{
         background-size: 400px 290px;
