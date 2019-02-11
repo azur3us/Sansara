@@ -1,4 +1,4 @@
-.navbar_icon{
+#navbar_icon{
     overflow: hidden;
     position: fixed;
     right: 0;
@@ -9,9 +9,43 @@
     text-align: center;
     background-color: #333d3c;
     color: #eee0c9;
-    z-index: 1000;
+    z-index: 1;
     cursor: pointer;
     
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  background-color: $bgColor;
+  overflow-x: hidden;
+  transition: 1s;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.sidenav a {
+  padding-bottom: 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: gray;
+}
+
+.sidenav #closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
 }
   @media(max-width:1200px)
   {
