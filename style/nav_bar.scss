@@ -49,7 +49,7 @@
 }
   @media(max-width:1200px)
   {
-    .navbar_icon{
+    #navbar_icon{
     
      top:0;
      background-color: transparent;
@@ -57,7 +57,7 @@
     }
   }
   @media(max-width:980px){
-    .navbar_icon{
+    #navbar_icon{
       height: 30px;
       width: 42px;
       font-size: 20px;
