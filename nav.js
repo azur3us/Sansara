@@ -1,11 +1,13 @@
-var el = document.getElementById("navbar_icon"); 
-el.addEventListener("click", openNav, false); 
-var el = document.getElementById("closebtn"); 
-el.addEventListener("click", closeNav, false); 
+var openBtn = document.getElementById("navbar_icon"); 
+openBtn.addEventListener("click", openNav, false); 
+var closeBtn = document.getElementById("closebtn"); 
+closeBtn.addEventListener("click", closeNav, false); 
 function openNav() {
-    document.getElementById("mySidenav").style.width = "100%";
+    document.getElementById("mySidenav").style.width = "250px";
   }
   
-  function closeNav() {
+function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
   }
+ 
+
