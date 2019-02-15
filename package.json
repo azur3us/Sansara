@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "aos": "^2.3.4",
+    "jquery": "^3.3.1",
     "stickynav": "0.0.0",
     "style": "0.0.3"
   }

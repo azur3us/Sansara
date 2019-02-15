@@ -1,5 +1,6 @@
 import './style/style.scss';
 import './nav.js'
+import './scrollTo.js'
 import 'aos/dist/aos.css'
 import AOS from 'aos' 
 AOS.init();
