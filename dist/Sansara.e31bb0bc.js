@@ -10788,13 +10788,13 @@ function closeNav() {
     $.scrollTo($('#aboutUs'), 500);
   });
   $('#link3').click(function () {
-    $.scrollTo($('#myOffer'), 500);
+    $.scrollTo($('#someInfo'), 500);
   });
   $('#link4').click(function () {
     $.scrollTo($('#myRealizations'), 500);
   });
   $('#link5').click(function () {
-    $.scrollTo($('#someInfo'), 500);
+    $.scrollTo($('#myOffer'), 500);
   });
   $('#link6').click(function () {
     $.scrollTo($('#myContact'), 500);
@@ -11076,7 +11076,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50010" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51413" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);

@@ -20,9 +20,9 @@ function closeNav() {
 
     $('#link1').click(function () { $.scrollTo($('#Home'), 500); });
     $('#link2').click(function () { $.scrollTo($('#aboutUs'), 500); });
-    $('#link3').click(function () { $.scrollTo($('#myOffer'), 500); });
+    $('#link3').click(function () { $.scrollTo($('#someInfo'), 500); });
     $('#link4').click(function () { $.scrollTo($('#myRealizations'), 500); });
-    $('#link5').click(function () { $.scrollTo($('#someInfo'), 500); });
+    $('#link5').click(function () { $.scrollTo($('#myOffer'), 500); });
     $('#link6').click(function () { $.scrollTo($('#myContact'), 500); });
 }
 )
