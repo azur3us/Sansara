@@ -42,7 +42,24 @@
 .lang_icon{
     position: absolute;
     right: 5%;
-    top: 60px;
+    top: 36px;
+    display: flex;
+    flex-direction: row;
+    >p
+    {
+        color: #333d3c;
+        font-family: "ff-good-headline-web-pro-ext";
+        font-size: 18px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1.8px;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
+.pl{
+    margin-right: 15px;
 }
 @media(max-width:980px){
     .elements{

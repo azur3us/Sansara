@@ -11024,7 +11024,12 @@ function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterat
 
   return $scrollTo;
 });
-},{"jquery":"node_modules/jquery/dist/jquery.js"}],"node_modules/aos/dist/aos.css":[function(require,module,exports) {
+},{"jquery":"node_modules/jquery/dist/jquery.js"}],"fontello/css/fontello.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"./..\\font\\fontello.eot":[["fontello.96e2b565.eot","fontello/font/fontello.eot"],"fontello/font/fontello.eot"],"./..\\font\\fontello.woff2":[["fontello.24425eb4.woff2","fontello/font/fontello.woff2"],"fontello/font/fontello.woff2"],"./..\\font\\fontello.woff":[["fontello.3713b494.woff","fontello/font/fontello.woff"],"fontello/font/fontello.woff"],"./..\\font\\fontello.ttf":[["fontello.3352919a.ttf","fontello/font/fontello.ttf"],"fontello/font/fontello.ttf"],"./..\\font\\fontello.svg":[["fontello.65a204bb.svg","fontello/font/fontello.svg"],"fontello/font/fontello.svg"],"_css_loader":"C:/Users/pbini/AppData/Local/Yarn/Data/global/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"node_modules/aos/dist/aos.css":[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
@@ -11042,6 +11047,8 @@ require("./nav.js");
 
 require("./scrollTo.js");
 
+require("./fontello/css/fontello.css");
+
 require("aos/dist/aos.css");
 
 var _aos2 = _interopRequireDefault(require("aos"));
@@ -11049,7 +11056,7 @@ var _aos2 = _interopRequireDefault(require("aos"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 _aos2.default.init();
-},{"./style/style.scss":"style/style.scss","./nav.js":"nav.js","./scrollTo.js":"scrollTo.js","aos/dist/aos.css":"node_modules/aos/dist/aos.css","aos":"node_modules/aos/dist/aos.js"}],"C:/Users/pbini/AppData/Local/Yarn/Data/global/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./style/style.scss":"style/style.scss","./nav.js":"nav.js","./scrollTo.js":"scrollTo.js","./fontello/css/fontello.css":"fontello/css/fontello.css","aos/dist/aos.css":"node_modules/aos/dist/aos.css","aos":"node_modules/aos/dist/aos.js"}],"C:/Users/pbini/AppData/Local/Yarn/Data/global/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -11076,7 +11083,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52224" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57335" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
