@@ -62,6 +62,7 @@
     position: absolute;
     top: 180px;
     cursor: pointer;
+    transition: 0.5s;
     &:hover{
         color: yellow;
         border: 2px solid yellow;
