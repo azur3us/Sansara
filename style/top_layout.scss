@@ -28,6 +28,7 @@
 .insta{
     font-size: 20px;
     transition: 0.5s;
+    cursor: pointer;
     &:hover{
         transform: scale(1.2);
         color: #c08d64;
@@ -36,6 +37,7 @@
 .fb{
     font-size: 20px;
     transition: 0.5s;
+    cursor: pointer;
     &:hover{
         transform: scale(1.2);
         color: #3b5998;

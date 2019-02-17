@@ -50,6 +50,7 @@ footer img{
 .insta-footer{
     font-size: 25px;
     transition: 1s;
+    cursor: pointer;
     &:hover{
         transform: scale(1.2) rotate(-10deg);
         color: #c08d64;
@@ -59,6 +60,7 @@ footer img{
 .fb-footer{
     font-size: 25px;
     transition:1s;
+    cursor:pointer;
     &:hover{
         transform: scale(1.2) rotate(10deg);
         color: #3b5998;
