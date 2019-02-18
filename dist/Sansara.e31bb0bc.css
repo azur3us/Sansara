@@ -161,12 +161,28 @@
   padding: 5px 17px;
   position: absolute;
   top: 180px;
+  overflow: hidden;
   cursor: pointer;
-  transition: 0.5s;
+  transition: 0.8s;
 }
 .start_coop_txt:hover {
-  color: yellow;
-  border: 2px solid yellow;
+  color: #fff2dd;
+  border: 2px solid #fff2dd;
+}
+.start_coop_txt:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: linear-gradient(to bottom, #ebf1f6 0%, #abd3ee 50%, #89c3eb 51%, #d5ebfb 100%);
+  z-index: -1;
+  transition: 0.8s;
+  top: 0;
+  border-radius: 0 0 50% 50%;
+}
+.start_coop_txt:hover::before {
+  height: 180%;
 }
 
 .scroll_to {
@@ -1261,7 +1277,7 @@ h3 {
   justify-content: center;
 }
 
-.contact:before {
+.contact::before {
   content: "";
   background-image: url(hugelogo.f30fef8e.png);
   background-repeat: no-repeat;
@@ -1457,7 +1473,7 @@ h3 {
   }
 }
 @media (max-width: 1245px) {
-  .contact:before {
+  .contact::before {
     left: calc(50% - 550px);
   }
 
@@ -1470,7 +1486,7 @@ h3 {
   }
 }
 @media (max-width: 1020px) {
-  .contact:before {
+  .contact::before {
     background-size: 1040px 690px;
     width: 950px;
     left: calc(50% - 500px);
@@ -1498,7 +1514,7 @@ h3 {
     left: calc(50% - 65px);
   }
 
-  .contact:before {
+  .contact::before {
     background-size: 800px 500px;
     width: 730px;
     height: 330px;
@@ -1506,7 +1522,7 @@ h3 {
   }
 }
 @media (max-width: 760px) {
-  .contact:before {
+  .contact::before {
     background-size: 685px 440px;
     width: 625px;
     height: 294px;
@@ -1555,7 +1571,7 @@ h3 {
     display: none;
   }
 
-  .contact:before {
+  .contact::before {
     background-size: 540px 330px;
     width: 495px;
     height: 220px;
@@ -1581,7 +1597,7 @@ h3 {
     width: unset;
   }
 
-  .contact:before {
+  .contact::before {
     background-size: 400px 290px;
     width: 370px;
     height: 193px;
@@ -1594,7 +1610,7 @@ h3 {
     left: calc(50% - 145px);
   }
 
-  .contact:before {
+  .contact::before {
     background-size: 360px 270px;
     width: 330px;
     height: 180px;

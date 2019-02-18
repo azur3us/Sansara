@@ -6,7 +6,7 @@
     
 
 }
-.contact:before{
+.contact::before{
     content: '';
     background-image: url(../img/hugelogo.png); 
     background-repeat: no-repeat;
@@ -192,7 +192,7 @@
     }
 }
 @media(max-width:1245px){
-    .contact:before{
+    .contact::before{
         left: calc(50% - 550px);
     }
     .foot_ele{
@@ -203,7 +203,7 @@
     }
 }
 @media(max-width:1020px){
-    .contact:before{
+    .contact::before{
         background-size: 1040px 690px;
         width: 950px;
         left: calc(50% - 500px);
@@ -226,7 +226,7 @@
     .formball{
         left: calc(50% - 65px);
     }
-    .contact:before{
+    .contact::before{
         background-size: 800px 500px;
         width: 730px; 
         height: 330px;
@@ -235,7 +235,7 @@
     }
 }
 @media(max-width:760px){
-    .contact:before{
+    .contact::before{
         background-size: 685px 440px;
         width: 625px;
         height: 294px;
@@ -278,7 +278,7 @@
     .nelement{
         display: none;
     }
-    .contact:before{
+    .contact::before{
         background-size: 540px 330px;
         width: 495px;
         height: 220px;
@@ -301,7 +301,7 @@
     .altcontact h4{
         width: unset;
     }
-    .contact:before{
+    .contact::before{
         background-size: 400px 290px;
         width: 370px;
         height: 193px;
@@ -313,7 +313,7 @@
         width: 290px;
         left: calc(50% - 145px);
     }
-    .contact:before{
+    .contact::before{
         background-size: 360px 270px;
         width: 330px;
         height: 180px;
