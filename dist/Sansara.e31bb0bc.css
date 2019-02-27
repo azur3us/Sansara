@@ -1801,9 +1801,9 @@ footer img {
   cursor: pointer;
 }
 
-.slide-menu__header {
-  color: grey;
-  margin-bottom: 20px;
+#mySidenav {
+  display: flex;
+  justify-content: center;
 }
 
 .sidenav {
@@ -1828,11 +1828,21 @@ footer img {
   text-decoration: none;
   color: black;
 }
+@media (max-width: 1200px) {
+  .sidenav > #closebtn {
+    top: 25%;
+    right: 5px;
+  }
+}
 
+ul {
+  padding: 0;
+}
 ul > li {
   list-style: none;
 }
 ul > li > a {
+  width: 100px;
   padding-bottom: 20px;
   text-decoration: none;
   font-size: 25px;
