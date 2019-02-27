@@ -10772,7 +10772,7 @@ menuBtn.forEach(function (x) {
 });
 
 function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("mySidenav").style.width = "100%";
 }
 
 function closeNav() {
@@ -10782,7 +10782,7 @@ function closeNav() {
 (0, _jquery.default)(function ($) {
   $.scrollTo(0);
   $('#link1').click(function () {
-    $.scrollTo($('#Home'), 500);
+    $.scrollTo($('#Start'), 500);
   });
   $('#link2').click(function () {
     $.scrollTo($('#aboutUs'), 500);
@@ -11083,7 +11083,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49259" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63618" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);

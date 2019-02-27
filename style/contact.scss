@@ -4,20 +4,18 @@
     display: flex;
     justify-content: center;
     
-
-}
-.contact::before{
-    content: '';
-    background-image: url(../img/hugelogo.png); 
-    background-repeat: no-repeat;
-    background-size: 1160px 680px;
-    height: 450px;
-    width: 1060px;
-    position: absolute;
-    overflow: hidden;
-    bottom:0;
-    left: calc(50% - 365px);
-    
+    &:before{
+        content: '';
+        background-image: url(../img/hugelogo.png); 
+        background-repeat: no-repeat;
+        background-size: 1160px 680px;
+        height: 450px;
+        width: 1060px;
+        position: absolute;
+        overflow: hidden;
+        bottom:0;
+        left: calc(50% - 365px);
+    }
 }
 
 .contact-box{
@@ -37,6 +35,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+ 
 }
 .contact-box h1{
     color: #333d3c;
@@ -47,21 +46,22 @@
     margin-bottom: 30px;
 
 }
-.contact-box p{
-    margin:0;
-    color: #868782;
-    font-family: sofia-pro;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 18px;
-    letter-spacing: 0.06px;
-    text-align: center;
-}
 .contact-box input{
     width: 100%;
     margin-bottom: 30px;
     display: flex;
     justify-content: center;
+    text-align: center;
+    &::placeholder{
+        margin:0;
+        color: #868782;
+        font-family: sofia-pro;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 18px;
+        letter-spacing: 0.06px;
+        text-align: center;
+    }
 }
 .contact-box input[type="text"], input[type="email"], input[type="tel"]
 {
@@ -104,6 +104,17 @@
     border-bottom: 1px solid #000;
     resize: none;
     background-color: transparent;
+    text-align: center;
+    &::placeholder{
+        margin:0;
+        color: #868782;
+        font-family: sofia-pro;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 18px;
+        letter-spacing: 0.06px;
+        text-align: center;
+    }
 }
 .altcontact{
     
