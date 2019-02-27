@@ -1787,7 +1787,6 @@ footer img {
   }
 }
 #navbar_icon {
-  overflow: hidden;
   position: fixed;
   right: 0;
   top: 50%;
@@ -1801,9 +1800,9 @@ footer img {
   cursor: pointer;
 }
 
-.slide-menu__header {
-  color: grey;
-  margin-bottom: 20px;
+#mySidenav {
+  display: flex;
+  justify-content: center;
 }
 
 .sidenav {
@@ -1822,17 +1821,31 @@ footer img {
 }
 .sidenav > #closebtn {
   position: absolute;
-  top: 25%;
-  right: 10px;
+  top: 0;
+  right: 25px;
   font-size: 36px;
   text-decoration: none;
   color: black;
 }
+@media (max-width: 1200px) {
+  .sidenav > #closebtn {
+    top: 25%;
+<<<<<<< HEAD
+    right: 5px;
+=======
+    right: 20px;
+>>>>>>> 4ade75ce2b2fdc3ceb2de4ef738895e64e73c901
+  }
+}
 
+ul {
+  padding: 0;
+}
 ul > li {
   list-style: none;
 }
 ul > li > a {
+  width: 100px;
   padding-bottom: 20px;
   text-decoration: none;
   font-size: 25px;
