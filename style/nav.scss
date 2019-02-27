@@ -1,5 +1,4 @@
 #navbar_icon{
-    overflow: hidden;
     position: fixed;
     right: 0;
     top: 50%;
@@ -13,10 +12,10 @@
     cursor: pointer;
     
 }
-.slide-menu__header{
-  color: grey;
-  margin-bottom: 20px;
-
+#mySidenav{
+  display: flex;
+  justify-content: center;
+  
 }
 .sidenav {
   height: 100%;
@@ -33,17 +32,25 @@
   white-space: nowrap;
   >#closebtn{
     position: absolute;
-    top: 25%;
-    right: 10px;
+    top: 0;
+    right: 25px;
     font-size: 36px;
     text-decoration: none;
     color:black;
+    @media(max-width: 1200px)
+    {
+      top: 25%;
+      right: 0;
+    }
   }
+
 }
 ul{
+  padding: 0;
   >li{
     list-style: none;
     >a{
+      width: 100px;
       padding-bottom: 20px;
       text-decoration: none;
       font-size: 25px;
