@@ -1797,7 +1797,7 @@ footer img {
   text-align: center;
   background-color: #333d3c;
   color: #eee0c9;
-  z-index: 1;
+  z-index: 9999;
   cursor: pointer;
 }
 
@@ -1822,8 +1822,8 @@ footer img {
 }
 .sidenav > #closebtn {
   position: absolute;
-  top: 0;
-  right: 25px;
+  top: 25%;
+  right: 10px;
   font-size: 36px;
   text-decoration: none;
   color: black;
