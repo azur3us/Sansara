@@ -1830,7 +1830,7 @@ footer img {
 @media (max-width: 1200px) {
   .sidenav > #closebtn {
     top: 25%;
-    right: 0;
+    right: 5px;
   }
 }
 
